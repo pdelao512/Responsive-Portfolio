@@ -65,7 +65,7 @@ body {
  
  #logo {
    float: left;
-   width: 250px;
+   width: 260px;
    height: 90px;
    font-family: Georgia, Times, "Times New Roman", serif;
    font-size: 30px;
@@ -237,3 +237,108 @@ body {
    background: #4aaaa5;
    border: 0 none;
  }
+
+
+ @media only screen and (max-width: 980px) {
+   .container {
+   padding: 0 20px;
+   max-width: 760px;
+ }
+ 
+ .main-container {
+   padding-top: 768px;
+ }
+ .main-section {
+   max-width: 420px;
+ }
+
+ .work {
+   width: 100%;
+ }
+ .auth-image {
+   width: 100%;
+   margin-bottom: 20px;
+ }
+  @media only screen and (max-width: 768px) {
+   .container {
+   max-width: 700px;
+ }
+
+ .sidebar {
+   float: right;
+   width: 100%;
+   max-width: 700px;
+ }
+ 
+ .main-section {
+   float: left;
+   width: 100%;
+   max-width: 700px;
+   padding: 30px;
+   margin: 0 0 40px;
+   background: #fff;
+   border: 1px solid #ddd;
+ }
+
+ @media only screen and (min-width: 640px) {
+   .container {
+   width: 100%;
+   max-width: 640px;
+   margin: 0 auto;
+   clear: both;
+ }
+
+ #masthead {
+   position: static;
+  margin-bottom: 20px;
+ }
+
+ header {
+   padding: 0;
+ }
+
+ #logo {
+   float: left;
+   width: 700px;
+   height: 90px;
+   text-align: center;
+
+ }
+
+ nav {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+ }
+ 
+ nav a {
+   display: inline-block;
+   padding-left: 0;
+   margin-left: 0;
+  
+ }
+ 
+ nav a:first-child {
+   border-left: 0 none;
+ }
+ 
+
+ 
+ .sidebar {
+   float: right;
+   width: 100%;
+   max-width: 700px;
+   padding: 30px;
+   margin-bottom: 20px;
+  
+ }
+ 
+ .main-section {
+   float: left;
+   width: 100%;
+   max-width: 700px;
+   padding: 30px;
+   margin: 0 0 40px;
+ 
+ }
+ 
